@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YHA Branding</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="./images/yha3.png" alt="YHA Logo"></a>
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="icons">
+            <a href="#"><i class="ri-search-line"></i></a>
+            <a href="./user.html"><i class="ri-user-line"></i></a>
+            <a href="./cart.html"><i class="ri-shopping-cart-line"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="home-text">
+            <h4>Find what you like here with special deals!</h4>
+            <h1>Exclusive collection for everyone</h1>
+            <a href="#" class="btn">Explore now</a>
+        </div>
+        <div class="home-img">
+            <img src="./images/jk.png" alt="Exclusive Collection">
+        </div>
+    </section>
+    <section class="feature">
+        <div class="middle-text">
+            <h2>Discover more <span>Good things.</span></h2>
+        </div>
+        <br>
+        <div class="slider">
+            <div class="slides">
+                <img src="./images/ns-37rVmK3jY-c-unsplash.jpg" alt="Image 1">
+                <img src="./images/sebastian-pociecha--JUoxG4sp88-unsplash.jpg" alt="Image 2">
+                <img src="https://th.bing.com/th/id/R.8fd0d987b8677273eb4fc7f5f31c1aea?rik=XnQL7ddxNaG5Rg&riu=http%3a%2f%2fmenscraze.com%2fwp-content%2fuploads%2f2016%2f05%2fMens-Casual-Fashion-2.jpg&ehk=qth3iXPf8V9xoWdVbke4NqZGIAK61kFwxmVHPla4ChM%3d&risl=&pid=ImgRaw&r=0" alt="Image 3">
+                <img src="./images/banjo-emerson-mathew-xWUT0etaVYw-unsplash.jpg" alt="Image 4">
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">❮</a>
+            <a class="next" onclick="changeSlide(1)">❯</a>
+        </div>
+        <br>
+        <h2>New Arrivals. <span>Best selling of the month</span></h2>
+        <div class="feature-content" align="center">
+            <div class="row">
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="https://th.bing.com/th/id/R.a362b720f02a525a11a21c11b5d1a5b3?rik=taRPkQBESQnp2g&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2%2fBag-Transparent.png&ehk=n4CBfXn3wdiG5tg6HJZ88H2HGOdNczksM2pgeyTlLJM%3d&risl=&pid=ImgRaw&r=0" alt="bag">
+                        <h3>Bag</h3>
+                        <p>$25.00</p>
+                        <button class="add-to-cart" data-name="Bag" data-price="25.00"><i class="ri-shopping-cart-line"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="https://th.bing.com/th/id/R.2ad788e89bdda8df0c4683f09faff87f?rik=KCyBC5OSwgQnOg&pid=ImgRaw&r=0" alt="shoes">
+                        <h3>Shoes</h3>
+                        <p>$60.00</p>
+                        <button class="add-to-cart" data-name="Shoes" data-price="60.00"><i class="ri-shopping-cart-line"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="https://th.bing.com/th/id/OIP.fcl_nEQFER6sugEncqY0EwHaHa?w=800&h=800&rs=1&pid=ImgDetMain" alt="T-shirt">
+                        <h3>T-shirt</h3>
+                        <p>$15.00</p>
+                        <button class="add-to-cart" data-name="T-shirt" data-price="15.00"><i class="ri-shopping-cart-line"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="https://w7.pngwing.com/pngs/522/526/png-transparent-hoodie-t-shirt-blue-bluza-t-shirt-blue-active-shirt-hoodie-thumbnail.png" alt="hoodie">
+                        <h3>Hoodie</h3>
+                        <p>$30.00</p>
+                        <button class="add-to-cart" data-name="Hoodie" data-price="30.00"><i class="ri-shopping-cart-line"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="https://th.bing.com/th/id/R.ab37ae0257a3c683f0734463295ef119?rik=PbNGxn%2fiWZ%2fhaQ&pid=ImgRaw&r=0" alt="pant">
+                        <h3>Pant</h3>
+                        <p>$20.00</p>
+                        <button class="add-to-cart" data-name="Pant" data-price="20.00"><i class="ri-shopping-cart-line"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="https://thumbs.dreamstime.com/b/close-up-woman-s-jeans-shorts-female-summer-shelf-simple-folded-element-summer-collection-68621170.jpg" alt="short">
+                        <h3>Short</h3>
+                        <p>$10.00</p>
+                        <button class="add-to-cart" data-name="Short" data-price="10.00"><i class="ri-shopping-cart-line"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h1>About Us</h1>
+                    <p>YHA Branding offers exclusive collections and special deals on a variety of products. Discover quality and style with us.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:youssefhesham309@gmail.com">youssefhesham309@gmail.com</a></li>
+                        <li><a href="tel:+201099443976">+2 010 9944 3976</a></li>
+                        <li><a href="#"> Cairo, Egy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="ri-facebook-line"></i></a>
+                        <a href="#"><i class="ri-twitter-line"></i></a>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                        <a href="#"><i class="ri-linkedin-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    <button id="scrollToTopBtn" title="Go to top"><i class="ri-arrow-up-s-line"></i></button>
+    <script src="./cart.js"></script>
+    <script src="./external.js"></script>
+</body>
+
+</html>
